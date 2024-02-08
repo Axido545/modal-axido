@@ -1,3 +1,7 @@
+import "./index.css"
+
 export default function ModalAxido() {
-    return <h1>Salut</h1>
+    return <main className="main-modal">
+        <h1>Modal</h1>
+    </main>
 }
