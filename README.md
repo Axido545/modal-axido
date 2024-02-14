@@ -1,15 +1,15 @@
 # Modal Axido
 
-Ce composant React permet d'afficher une modal qui contient du texte passé en props
+This React component displays a modal containing text passed through props.
 
 ## How to use
 
-Voici un exemple de code qui permet d'utiliser la modal dans un composant react
+Here's an example code demonstrating how to use the modal in a React component:
 
 `<ModalAxido textModal={textModal} handleClose={handleClose} isOpen={openModal} />`
 
 ### Props definitions
 
-textModal: String, le texte à afficher dans la modal
-handlClose: Function, la fonction à appeller pour fermer la modal
-isOpen: Boolean, permet d'afficher ou non la modal
+textModal: String, the text to display in the modal.
+handlClose: Function, the function to call to close the modal.
+isOpen: Boolean, determines whether the modal is displayed or not.

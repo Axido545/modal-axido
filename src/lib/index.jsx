@@ -3,7 +3,7 @@ import closeImg from "./close.png"
 import PropTypes from "prop-types"
 
 /**
- * @description ModalAxido composant react pour afficher une modal
+ * @description "ModalAxido React component to display a modal."
  */
 export default function ModalAxido({ textModal, handleClose, isOpen }) {
     return isOpen &&
