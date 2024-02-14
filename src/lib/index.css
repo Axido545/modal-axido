@@ -18,6 +18,10 @@
     position: relative;
     border-radius: 5px;
     border: 1px solid rgb(168, 167, 167);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .close-btn {
@@ -29,5 +33,5 @@
 }
 
 .modal-text {
-    text-align: left;
+    text-align: center;
 }
