@@ -1,13 +1,22 @@
 import "./index.css"
 import closeImg from "./close.png"
+import PropTypes from "prop-types"
 
-export default function ModalAxido({ textModal, handleClose }) {
-
-    return < main className="main-modal" >
-        <div className="modal-container">
-            <img className="close-btn" src={closeImg} alt="close-btn" onClick={handleClose} />
-            <h3>Modal Titre</h3>
-            <p className="modal-text">{textModal}</p>
+/**
+ * @description ModalAxido composant react pour afficher une modal
+ */
+export default function ModalAxido({ textModal, handleClose, isOpen }) {
+    return isOpen &&
+        <div className="main-modal" >
+            <div className="modal-container">
+                <img className="close-btn" src={closeImg} alt="close-btn" onClick={handleClose} />
+                <p className="modal-text">{textModal}</p>
+            </div>
         </div>
-    </main >
+}
+
+ModalAxido.propTypes = {
+    textModal: PropTypes.string,
+    handleClose: PropTypes.func,
+    isOpen: PropTypes.bool
 }
