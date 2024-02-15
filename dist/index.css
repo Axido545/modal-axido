@@ -18,6 +18,7 @@
     position: relative;
     border-radius: 5px;
     border: 1px solid rgb(168, 167, 167);
+    z-index: 999;
 }
 
 .close-btn {
