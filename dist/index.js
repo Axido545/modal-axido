@@ -10,7 +10,7 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 /**
- * @description ModalAxido composant react pour afficher une modal
+ * @description "ModalAxido React component to display a modal."
  */function ModalAxido(_ref) {
   let {
     textModal,
