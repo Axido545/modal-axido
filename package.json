@@ -1,6 +1,6 @@
 {
   "name": "modal-axido",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "private": false,
   "dependencies": {
     "prop-types": "^15.8.1",
