@@ -1,6 +1,7 @@
 .main-modal {
     background-color: rgba(240, 240, 240, 0.7);
     height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
