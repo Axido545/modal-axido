@@ -1,6 +1,6 @@
 {
   "name": "modal-axido",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "ModalAxido React component to display a modal.",
   "main": "index.js",
   "private": false,
