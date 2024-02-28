@@ -17,7 +17,7 @@ Here's an example of using ModalAxido:
 
 ```jsx
 import React, { useState } from 'react';
-import ModalAxido from 'modal-axido';
+import ModalAxido from 'modal-axido/dist';
 
 function Example() {
   const [modalOpen, setModalOpen] = useState(false);
