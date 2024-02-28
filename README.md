@@ -1,12 +1,45 @@
-# Modal Axido
+# Modal Axido React Component
 
-This React component displays a modal containing text passed through props.
+ModalAxido is a simple React component displays a modal containing text passed through props.
 
-## How to use
+## Installation
 
-Here's an example code demonstrating how to use the modal in a React component:
+To install, you can use [npm](https://npmjs.org/) or [yarn](https://yarnpkg.com):
 
-`<ModalAxido textModal={textModal} handleClose={handleClose} isOpen={openModal} />`
+    $ npm install --save modal-axido
+
+    $ yarn add modal-axido
+
+## Example
+
+Here's an example of using ModalAxido:
+
+
+```jsx
+import React, { useState } from 'react';
+import ModalAxido from 'modal-axido';
+
+function Example() {
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const handleModalClose = () => {
+    setModalOpen(false);
+  };
+
+  return (
+    <div>
+      <button onClick={() => setModalOpen(true)}>Open Modal</button>
+      <ModalAxido
+        textModal="Hello, this is a sample modal!"
+        handleClose={handleModalClose}
+        isOpen={modalOpen}
+      />
+    </div>
+  );
+}
+
+export default Example;
+```
 
 ### Props definitions
 
