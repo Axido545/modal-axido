@@ -2,8 +2,6 @@
   "name": "modal-axido",
   "version": "1.0.9",
   "description": "ModalAxido React component to display a modal.",
-  "main": "index.js",
-  "private": false,
   "dependencies": {
     "prop-types": "^15.8.1",
     "web-vitals": "^2.1.4"
@@ -20,7 +18,7 @@
   "author": "Sabrina Mekbel",
   "scripts": {
     "start": "react-scripts start",
-    "build": "babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+    "build": "babel src/lib --out-dir . --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
