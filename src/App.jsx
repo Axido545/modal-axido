@@ -1,7 +1,7 @@
-import ModalAxido from "./lib";
+import ModalAxido from "./lib/index.jsx";
 import { useState } from "react";
 
-function App() {
+export default function App() {
   const [openModal, setOpenModal] = useState(false)
   const textModal = "Modal texte message Modal texte message Modal texte message Modal texte message  Modal texte message Modal texte message Modal texte message Modal texte message"
   const handleClose = () => {
@@ -13,4 +13,4 @@ function App() {
   </>
 }
 
-export default App;
+
