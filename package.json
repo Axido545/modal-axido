@@ -1,7 +1,12 @@
 {
   "name": "modal-axido",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "ModalAxido React component to display a modal.",
+  "files": [
+    "index.*",
+    "README.md",
+    "close.png"
+  ],
   "dependencies": {
     "prop-types": "^15.8.1",
     "web-vitals": "^2.1.4"
